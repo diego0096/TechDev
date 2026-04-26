@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<!-- services.html - Página de servicios y planes de precios de TechDev Solutions -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Servicios tecnológicos de TechDev Solutions: desarrollo de software, IA, cloud computing, ciberseguridad, apps móviles y consultoría IT.">
+    <!-- Meta propiedades Open Graph para redes sociales -->
+    <meta property="og:title" content="Servicios Tecnológicos | TechDev Solutions">
+    <meta property="og:description" content="Desarrollo de software, IA, cloud computing, ciberseguridad, apps móviles y consultoría IT a medida.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <title>Servicios Tecnológicos | TechDev Solutions</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barra de navegación principal -->
+    <nav>
+        <a href="index.html" class="logo" title="Ir a la página de inicio de TechDev">TechDev</a>
+        <ul class="nav-links">
+            <li><a href="index.html" title="Inicio">Inicio</a></li>
+            <li><a href="about.html" title="Acerca de nosotros">Acerca de</a></li>
+            <li><a href="services.html" title="Ver nuestros servicios">Servicios</a></li>
+            <li><a href="services.html#pricing" title="Ver planes y precios">Precios</a></li>
+            <li><a href="blog.html" title="Blog tecnológico">Blog</a></li>
+            <li><a href="contact.html" title="Contactar con TechDev">Contacto</a></li>
+        </ul>
+        <button class="menu-toggle" title="Abrir menú de navegación" aria-label="Abrir menú de navegación" aria-expanded="false">☰</button>
+    </nav>
+
+    <!-- Banner de la página -->
+    <header class="page-banner banner-services">
+        <h1 class="text-white mb-one">Nuestros Servicios</h1>
+        <p class="max-w-six-hundred">Soluciones tecnológicas diseñadas para escalar tu negocio al siguiente nivel.</p>
+    </header>
+
+    <main class="container">
+
+        <!-- Resumen de servicios -->
+        <section class="section">
+            <div class="card-container">
+
+                <!-- Servicio: Desarrollo de Software -->
+                <a href="#software-dev" class="service-summary-link" title="Ver más sobre Desarrollo de Software">
+                    <picture>
+                        <source srcset="assets/images/photo-1461749280684-dccba630e2f6.webp" type="image/webp">
+                        <img src="assets/images/photo-1461749280684-dccba630e2f6.webp" alt="Desarrollo de software a medida" class="card-img" loading="lazy" width="600" height="220">
+                    </picture>
+                    <div class="p-two-five">
+                        <h3 class="text-accent mb-one">Desarrollo de Software</h3>
+                        <p>Creamos aplicaciones web y de escritorio a medida, escalables y orientadas a resultados.</p>
+                    </div>
+                </a>
+
+                <!-- Servicio: Inteligencia Artificial -->
+                <a href="#ai-solutions" class="service-summary-link" title="Ver más sobre Inteligencia Artificial">
+                    <picture>
+                        <source srcset="assets/images/photo-1550751827-4bd374c3f58b.webp" type="image/webp">
+                        <img src="assets/images/photo-1550751827-4bd374c3f58b.webp" alt="Inteligencia artificial y machine learning" class="card-img" loading="lazy" width="600" height="220">
+                    </picture>
+                    <div class="p-two-five">
+                        <h3 class="text-accent mb-one">Inteligencia Artificial</h3>
+                        <p>Implementamos soluciones de Machine Learning y NLP para automatizar procesos y obtener insights de datos.</p>
+                    </div>
+                </a>
+
+                <!-- Servicio: Cloud Computing -->
+                <a href="#cloud-computing" class="service-summary-link" title="Ver más sobre Cloud Computing">
+                    <picture>
+                        <source srcset="assets/images/photo-1451187580459-43490279c0fa.webp" type="image/webp">
+                        <img src="assets/images/photo-1451187580459-43490279c0fa.webp" alt="Soluciones de cloud computing en AWS, Azure y GCP" class="card-img" loading="lazy" width="600" height="220">
+                    </picture>
+                    <div class="p-two-five">
+                        <h3 class="text-accent mb-one">Cloud Computing</h3>
+                        <p>Diseñamos infraestructuras en la nube seguras y eficientes (AWS, Azure, GCP).</p>
+                    </div>
+                </a>
+
+                <!-- Servicio: Ciberseguridad -->
+                <a href="#cybersecurity" class="service-summary-link" title="Ver más sobre Ciberseguridad">
+                    <picture>
+                        <source srcset="assets/images/photo-1550751827-4bd374c3f58b.webp" type="image/webp">
+                        <img src="assets/images/photo-1550751827-4bd374c3f58b.webp" alt="Ciberseguridad y protección de datos" class="card-img" loading="lazy" width="600" height="220">
+                    </picture>
+                    <div class="p-two-five">
+                        <h3 class="text-accent mb-one">Ciberseguridad</h3>
+                        <p>Protegemos tus activos digitales mediante auditorías de seguridad y sistemas de defensa avanzados.</p>
+                    </div>
+                </a>
+
+                <!-- Servicio: Mobile Development -->
+                <a href="#mobile-dev" class="service-summary-link" title="Ver más sobre Desarrollo Móvil">
+                    <picture>
+                        <source srcset="assets/images/photo-1512941937669-90a1b58e7e9c.webp" type="image/webp">
+                        <img src="assets/images/photo-1512941937669-90a1b58e7e9c.webp" alt="Desarrollo de aplicaciones móviles iOS y Android" class="card-img" loading="lazy" width="600" height="220">
+                    </picture>
+                    <div class="p-two-five">
+                        <h3 class="text-accent mb-one">Mobile Development</h3>
+                        <p>Desarrollo de apps móviles nativas e híbridas para iOS y Android con la mejor experiencia de usuario.</p>
+                    </div>
+                </a>
+
+                <!-- Servicio: Consultoría IT -->
+                <a href="#it-consultancy" class="service-summary-link" title="Ver más sobre Consultoría IT">
+                    <picture>
+                        <source srcset="assets/images/photo-1552664730-d307ca884978.webp" type="image/webp">
+                        <img src="assets/images/photo-1552664730-d307ca884978.webp" alt="Consultoría IT estratégica" class="card-img" loading="lazy" width="800" height="220">
+                    </picture>
+                    <div class="p-two-five">
+                        <h3 class="text-accent mb-one">Consultoría IT</h3>
+                        <p>Asesoramiento estratégico para optimizar tus procesos tecnológicos y transformación digital.</p>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Detalle: Desarrollo de Software -->
+        <section id="software-dev" class="section border-top-secondary">
+            <div class="grid-two-col">
+                <div>
+                    <h2 class="text-white mb-one-five">Desarrollo de Software a Medida</h2>
+                    <p class="mb-one">En TechDev Solutions, transformamos tus ideas en realidades digitales potentes. Nuestro enfoque se centra en crear software que no solo funcione, sino que impulse el crecimiento de tu negocio.</p>
+                    <ul class="text-dim mb-two">
+                        <li>✓ Arquitecturas escalables</li>
+                        <li>✓ Desarrollo Frontend y Backend</li>
+                        <li>✓ Integración de APIs</li>
+                        <li>✓ Metodologías Ágiles (Scrum/Kanban)</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary" title="Solicitar presupuesto de software">Solicitar Presupuesto</a>
+                </div>
+                <picture>
+                    <source srcset="assets/images/photo-1498050108023-c5249f4df085.webp" type="image/webp">
+                    <img src="assets/images/photo-1498050108023-c5249f4df085.webp" alt="Programador trabajando en desarrollo de software" class="img-fluid" loading="lazy" width="800" height="450">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Detalle: Inteligencia Artificial -->
+        <section id="ai-solutions" class="section border-top-secondary">
+            <div class="grid-two-col">
+                <picture>
+                    <source srcset="assets/images/photo-1677442136019-21780ecad995.webp" type="image/webp">
+                    <img src="assets/images/photo-1677442136019-21780ecad995.webp" alt="Inteligencia artificial y machine learning" class="img-fluid" loading="lazy" width="800" height="450">
+                </picture>
+                <div>
+                    <h2 class="text-white mb-one-five">Inteligencia Artificial y Machine Learning</h2>
+                    <p class="mb-one">Aprovecha el poder de los datos para tomar decisiones más inteligentes. Diseñamos modelos de IA que aprenden y evolucionan con tu empresa.</p>
+                    <ul class="text-dim mb-two">
+                        <li>✓ Análisis Predictivo</li>
+                        <li>✓ Procesamiento de Lenguaje Natural</li>
+                        <li>✓ Visión por Computador</li>
+                        <li>✓ Automatización Robótica de Procesos (RPA)</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary" title="Saber más sobre nuestras soluciones de IA">Saber más</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detalle: Cloud Computing -->
+        <section id="cloud-computing" class="section border-top-secondary">
+            <div class="grid-two-col">
+                <div>
+                    <h2 class="text-white mb-one-five">Soluciones Cloud de Alto Rendimiento</h2>
+                    <p class="mb-one">Migra tu infraestructura a la nube con total seguridad y eficiencia. Optimizamos tus costos y mejoramos la disponibilidad de tus servicios.</p>
+                    <ul class="text-dim mb-two">
+                        <li>✓ Migración a AWS / Azure / GCP</li>
+                        <li>✓ Gestión de Microservicios y Kubernetes</li>
+                        <li>✓ Serverless Architecture</li>
+                        <li>✓ Backup y Recuperación de Desastres</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary" title="Ver planes cloud disponibles">Ver Planes Cloud</a>
+                </div>
+                <picture>
+                    <source srcset="assets/images/photo-1451187580459-43490279c0fa.webp" type="image/webp">
+                    <img src="assets/images/photo-1451187580459-43490279c0fa.webp" alt="Infraestructura cloud de alto rendimiento" class="img-fluid" loading="lazy" width="800" height="450">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Detalle: Ciberseguridad -->
+        <section id="cybersecurity" class="section border-top-secondary">
+            <div class="grid-two-col">
+                <picture>
+                    <source srcset="assets/images/photo-1563986768609-322da13575f3.webp" type="image/webp">
+                    <img src="assets/images/photo-1563986768609-322da13575f3.webp" alt="Ciberseguridad y protección de datos empresariales" class="img-fluid" loading="lazy" width="800" height="450">
+                </picture>
+                <div>
+                    <h2 class="text-white mb-one-five">Ciberseguridad y Protección de Datos</h2>
+                    <p class="mb-one">La seguridad no es una opción, es una necesidad. Protegemos tu información crítica contra las amenazas más avanzadas del mundo digital.</p>
+                    <ul class="text-dim mb-two">
+                        <li>✓ Auditorías de Seguridad (Pentesting)</li>
+                        <li>✓ Implementación de Firewalls y VPNs</li>
+                        <li>✓ Cumplimiento de RGPD</li>
+                        <li>✓ Monitoreo 24/7 de Amenazas</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary" title="Solicitar auditoría gratuita de seguridad">Auditoría Gratuita</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detalle: Mobile Development -->
+        <section id="mobile-dev" class="section border-top-secondary">
+            <div class="grid-two-col">
+                <div>
+                    <h2 class="text-white mb-one-five">Desarrollo de Apps Móviles</h2>
+                    <p class="mb-one">Llega a tus usuarios dondequiera que estén. Creamos experiencias móviles fluidas que aprovechan al máximo el hardware de cada dispositivo.</p>
+                    <ul class="text-dim mb-two">
+                        <li>✓ Apps Nativas (iOS / Android)</li>
+                        <li>✓ Flutter y React Native</li>
+                        <li>✓ Diseño UX/UI optimizado</li>
+                        <li>✓ Publicación en Stores</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary" title="Iniciar proyecto de app móvil">Iniciar Proyecto</a>
+                </div>
+                <picture>
+                    <source srcset="assets/images/photo-1551650975-87deedd944c3.webp" type="image/webp">
+                    <img src="assets/images/photo-1551650975-87deedd944c3.webp" alt="Desarrollo de apps móviles para iOS y Android" class="img-fluid" loading="lazy" width="800" height="450">
+                </picture>
+            </div>
+        </section>
+
+        <!-- Detalle: Consultoría IT -->
+        <section id="it-consultancy" class="section border-top-secondary">
+            <div class="grid-two-col">
+                <picture>
+                    <source srcset="assets/images/photo-1519389950473-47ba0277781c.webp" type="image/webp">
+                    <img src="assets/images/photo-1519389950473-47ba0277781c.webp" alt="Consultoría tecnológica estratégica para empresas" class="img-fluid" loading="lazy" width="800" height="450">
+                </picture>
+                <div>
+                    <h2 class="text-white mb-one-five">Consultoría Tecnológica Estratégica</h2>
+                    <p class="mb-one">Te ayudamos a navegar la complejidad del mundo IT. Definimos la hoja de ruta tecnológica que mejor se adapta a tus objetivos de negocio.</p>
+                    <ul class="text-dim mb-two">
+                        <li>✓ Transformación Digital</li>
+                        <li>✓ Optimización de Procesos</li>
+                        <li>✓ Selección de Stack Tecnológico</li>
+                        <li>✓ Formación de Equipos IT</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary" title="Hablar con un experto de TechDev">Hablar con un Experto</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de precios -->
+        <section id="pricing" class="section border-top-thin">
+            <div class="text-center">
+                <h2 class="d-block w-100">Planes de Servicio</h2>
+                <p class="text-dim max-w-six-hundred mx-auto">Elige el plan que mejor se adapte a tus necesidades. Ofrecemos soluciones escalables para cada etapa de tu negocio.</p>
+            </div>
+
+            <div class="pricing-grid">
+
+                <!-- Plan Startup -->
+                <div class="pricing-card">
+                    <h3 class="text-white font-xxl">Startup</h3>
+                    <p class="text-dim mt-half">Para nuevos proyectos digitales</p>
+                    <div class="pricing-price">€1.500 <span>/proyecto</span></div>
+                    <ul class="pricing-features">
+                        <li>Landing Page Dinámica</li>
+                        <li>Diseño UX/UI Básico</li>
+                        <li>SEO Optimizado</li>
+                        <li>Soporte 1 Mes</li>
+                    </ul>
+                    <a href="contact.html" class="btn w-100" title="Empezar con el plan Startup">Empezar Ahora</a>
+                </div>
+
+                <!-- Plan Business (popular) -->
+                <div class="pricing-card popular">
+                    <h3 class="text-white font-xxl">Business</h3>
+                    <p class="text-dim mt-half">Para empresas en crecimiento</p>
+                    <div class="pricing-price">€4.900 <span>/proyecto</span></div>
+                    <ul class="pricing-features">
+                        <li>E-commerce o Web App</li>
+                        <li>Gestión de Cloud Básico</li>
+                        <li>Integración de APIs</li>
+                        <li>Soporte 6 Meses</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary w-100" title="Elegir el plan Business">Elegir Plan</a>
+                </div>
+
+                <!-- Plan Enterprise -->
+                <div class="pricing-card">
+                    <h3 class="text-white font-xxl">Enterprise</h3>
+                    <p class="text-dim mt-half">Soluciones personalizadas</p>
+                    <div class="pricing-price">Personalizado</div>
+                    <ul class="pricing-features">
+                        <li>Software a Medida Full</li>
+                        <li>IA & Machine Learning</li>
+                        <li>Arquitectura Cloud Robusta</li>
+                        <li>Soporte 24/7</li>
+                    </ul>
+                    <a href="contact.html" class="btn w-100" title="Consultar el plan Enterprise">Consultar</a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+
+                <!-- Columna: logo y descripción -->
+                <div class="footer-section">
+                    <h3 class="logo">TechDev</h3>
+                    <p>Liderando el desarrollo tecnológico desde 2013.</p>
+                </div>
+
+                <!-- Columna: enlaces de navegación -->
+                <div class="footer-section">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="index.html" title="Ir a inicio">Inicio</a></li>
+                        <li><a href="about.html" title="Conocer el equipo">Acerca de</a></li>
+                        <li><a href="services.html" title="Ver servicios">Servicios</a></li>
+                        <li><a href="blog.html" title="Leer el blog">Blog</a></li>
+                        <li><a href="contact.html" title="Contactar">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna: legal -->
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="privacy.html" title="Política de privacidad">Privacidad</a></li>
+                        <li><a href="privacy.html#terminos" title="Términos de servicio">Términos</a></li>
+                        <li><a href="privacy.html#cookies" title="Política de cookies">Cookies</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna: información de contacto -->
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p class="text-dim">Email: info@techdev.com</p>
+                    <p class="text-dim">Tel: +34 900 123 456</p>
+                    <p class="text-dim">Madrid, España</p>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TechDev Solutions. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/index.js" defer></script>
+</body>
+</html>
